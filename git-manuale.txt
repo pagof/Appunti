@@ -1,0 +1,22 @@
+
+
+echo "# Appunti" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pagof/Appunti.git
+git push -u origin master
+
+
+
+
+
+
+
+creare un  nuovo archivio locale:
+aprire una finestra dos.
+posizionarsi su nuova cartella.
+digitare "git init"
+
+posso creare documeni nuovi e poi aggiungerli con il comando
+"git add <nomefile.estensione>" esempio "git add pippo.doc"
